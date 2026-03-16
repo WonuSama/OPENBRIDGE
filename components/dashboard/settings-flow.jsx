@@ -35,6 +35,14 @@ const STEP_META = {
   finish: ["Todo listo para usar", "Cerramos con una explicacion corta de lo que ya se puede hacer."],
 };
 
+function deriveInitialStep(config, detection) {
+  if (config?.onboardingCompleted) return "finish";
+  if (config?.openclaw?.installMode === "install") return "finish";
+  if (config?.openclaw?.installMode === "existing" && (detection?.binaryResolved || config?.openclaw?.binaryPath)) return "finish";
+  if (config?.vps?.host) return "choice";
+  return "intro";
+}
+
 function ChoiceButton({ selected, icon: Icon, title, detail, onClick }) {
   return (
     <button
@@ -173,7 +181,11 @@ export function SettingsFlow({ setupData, refreshSetup, onCompleted, onCancel, f
       apiKey: "",
     }));
     setInstallMode(next.openclaw?.installMode === "install" ? "fresh" : next.openclaw?.installMode === "existing" ? "existing" : "");
-    setStep(next.onboardingCompleted ? "finish" : "intro");
+    setStep((current) => {
+      if (current === "intro") return deriveInitialStep(next, setupData?.detection);
+      if (next.onboardingCompleted) return "finish";
+      return current;
+    });
     setError("");
     setSuccess("");
     setBusy("");

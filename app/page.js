@@ -46,6 +46,14 @@ export default function Page() {
   const diagnostics = useMemo(() => parseDiagnostics(health.output), [health.output]);
   const largestItems = useMemo(() => stats.largest.slice(0, 6), [stats.largest]);
   const statusLabel = health.loading ? "Verificando" : health.ok ? "Activo" : "Atencion";
+  const setupStarted = useMemo(() => {
+    return Boolean(
+      setupData?.config?.onboardingCompleted ||
+        setupData?.config?.vps?.host ||
+        setupData?.detection?.binaryResolved ||
+        setupData?.config?.openclaw?.installMode === "install",
+    );
+  }, [setupData]);
 
   async function loadHealth() {
     try {
@@ -150,7 +158,7 @@ export default function Page() {
 
     Promise.all([refreshAll(scope, ""), loadSetup()])
       .then(([, setup]) => {
-        if (!setup?.config?.onboardingCompleted) setSettingsOpen(true);
+        if (!setup?.config?.onboardingCompleted && !setup?.config?.vps?.host && !setup?.detection?.binaryResolved) setSettingsOpen(true);
       })
       .catch(() => {});
   }, []);
@@ -228,10 +236,10 @@ export default function Page() {
           multiagentsView={multiagentsView}
           setMultiagentsView={setMultiagentsView}
           onOpenSettings={() => {
-            if (setupData?.config?.onboardingCompleted) setActiveTab("settings");
+            if (setupStarted) setActiveTab("settings");
             else setSettingsOpen(true);
           }}
-          setupReady={!!setupData?.config?.onboardingCompleted}
+          setupReady={setupStarted}
           userProfile={userProfile}
           draftProfile={draftProfile}
           setDraftProfile={setDraftProfile}
