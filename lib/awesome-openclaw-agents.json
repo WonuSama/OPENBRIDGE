@@ -1,0 +1,1244 @@
+{
+  "total": 177,
+  "agents": [
+    {
+      "id": "discord-business",
+      "category": "automation",
+      "title": "Discord Business",
+      "role": "Discord Operations Agent",
+      "sourcePath": "agents/automation/discord-business/SOUL.md"
+    },
+    {
+      "id": "flight-scraper",
+      "category": "automation",
+      "title": "Flight Scraper",
+      "role": "Flight Deal Agent",
+      "sourcePath": "agents/automation/flight-scraper/SOUL.md"
+    },
+    {
+      "id": "job-applicant",
+      "category": "automation",
+      "title": "Job Applicant",
+      "role": "Job Application Agent",
+      "sourcePath": "agents/automation/job-applicant/SOUL.md"
+    },
+    {
+      "id": "morning-briefing",
+      "category": "automation",
+      "title": "Morning Briefing",
+      "role": "Daily Briefing Agent",
+      "sourcePath": "agents/automation/morning-briefing/SOUL.md"
+    },
+    {
+      "id": "negotiation-agent",
+      "category": "automation",
+      "title": "Negotiation Agent",
+      "role": "Auto-Negotiation Agent",
+      "sourcePath": "agents/automation/negotiation-agent/SOUL.md"
+    },
+    {
+      "id": "overnight-coder",
+      "category": "automation",
+      "title": "Overnight Coder",
+      "role": "Autonomous Coding Agent",
+      "sourcePath": "agents/automation/overnight-coder/SOUL.md"
+    },
+    {
+      "id": "churn-predictor",
+      "category": "business",
+      "title": "Churn Predictor",
+      "role": "Churn Predictor agent especializado en business",
+      "sourcePath": "agents/business/churn-predictor/SOUL.md"
+    },
+    {
+      "id": "competitor-pricing",
+      "category": "business",
+      "title": "Competitor Pricing",
+      "role": "Competitive Pricing Intelligence Agent",
+      "sourcePath": "agents/business/competitor-pricing/SOUL.md"
+    },
+    {
+      "id": "customer-support",
+      "category": "business",
+      "title": "Customer Support",
+      "role": "Customer Support agent especializado en business",
+      "sourcePath": "agents/business/customer-support/SOUL.md"
+    },
+    {
+      "id": "deal-forecaster",
+      "category": "business",
+      "title": "Deal Forecaster",
+      "role": "Deal Prediction Agent",
+      "sourcePath": "agents/business/deal-forecaster/SOUL.md"
+    },
+    {
+      "id": "erp-admin",
+      "category": "business",
+      "title": "ERP Admin",
+      "role": "ERP/CRM Administration Agent",
+      "sourcePath": "agents/business/erp-admin/SOUL.md"
+    },
+    {
+      "id": "invoice-tracker",
+      "category": "business",
+      "title": "Invoice Tracker",
+      "role": "Invoice Tracker agent especializado en business",
+      "sourcePath": "agents/business/invoice-tracker/SOUL.md"
+    },
+    {
+      "id": "lead-gen",
+      "category": "business",
+      "title": "Lead Gen",
+      "role": "Lead Generation Agent",
+      "sourcePath": "agents/business/lead-gen/SOUL.md"
+    },
+    {
+      "id": "meeting-scheduler",
+      "category": "business",
+      "title": "Meeting Scheduler",
+      "role": "Intelligent Meeting Coordination Agent",
+      "sourcePath": "agents/business/meeting-scheduler/SOUL.md"
+    },
+    {
+      "id": "objection-handler",
+      "category": "business",
+      "title": "Objection Handler",
+      "role": "Sales Objection Agent",
+      "sourcePath": "agents/business/objection-handler/SOUL.md"
+    },
+    {
+      "id": "personal-crm",
+      "category": "business",
+      "title": "Personal Crm",
+      "role": "Personal Crm agent especializado en business",
+      "sourcePath": "agents/business/personal-crm/SOUL.md"
+    },
+    {
+      "id": "radar",
+      "category": "business",
+      "title": "Radar",
+      "role": "Radar agent especializado en business",
+      "sourcePath": "agents/business/radar/SOUL.md"
+    },
+    {
+      "id": "sales-assistant",
+      "category": "business",
+      "title": "Sales Assistant",
+      "role": "Sales Assistant agent especializado en business",
+      "sourcePath": "agents/business/sales-assistant/SOUL.md"
+    },
+    {
+      "id": "sdr-outbound",
+      "category": "business",
+      "title": "SDR Outbound",
+      "role": "Outbound SDR Agent",
+      "sourcePath": "agents/business/sdr-outbound/SOUL.md"
+    },
+    {
+      "id": "whatsapp-business",
+      "category": "business",
+      "title": "Your Business Name",
+      "role": "Whatsapp Business agent especializado en business",
+      "sourcePath": "agents/business/whatsapp-business/SOUL.md"
+    },
+    {
+      "id": "ai-policy-writer",
+      "category": "compliance",
+      "title": "AI Policy Writer",
+      "role": "AI Governance Agent",
+      "sourcePath": "agents/compliance/ai-policy-writer/SOUL.md"
+    },
+    {
+      "id": "gdpr-auditor",
+      "category": "compliance",
+      "title": "GDPR Auditor",
+      "role": "GDPR Compliance Agent",
+      "sourcePath": "agents/compliance/gdpr-auditor/SOUL.md"
+    },
+    {
+      "id": "risk-assessor",
+      "category": "compliance",
+      "title": "Risk Assessor",
+      "role": "Risk Assessment Agent",
+      "sourcePath": "agents/compliance/risk-assessor/SOUL.md"
+    },
+    {
+      "id": "soc2-preparer",
+      "category": "compliance",
+      "title": "SOC2 Preparer",
+      "role": "SOC 2 Audit Agent",
+      "sourcePath": "agents/compliance/soc2-preparer/SOUL.md"
+    },
+    {
+      "id": "ad-copywriter",
+      "category": "creative",
+      "title": "Ad Copywriter",
+      "role": "Ad Copy Agent",
+      "sourcePath": "agents/creative/ad-copywriter/SOUL.md"
+    },
+    {
+      "id": "audio-producer",
+      "category": "creative",
+      "title": "Audio Producer",
+      "role": "Audio Production Agent",
+      "sourcePath": "agents/creative/audio-producer/SOUL.md"
+    },
+    {
+      "id": "brand-designer",
+      "category": "creative",
+      "title": "Brand Designer",
+      "role": "Brand Designer agent especializado en creative",
+      "sourcePath": "agents/creative/brand-designer/SOUL.md"
+    },
+    {
+      "id": "copywriter",
+      "category": "creative",
+      "title": "Copywriter",
+      "role": "Conversion-Focused Copywriting Agent",
+      "sourcePath": "agents/creative/copywriter/SOUL.md"
+    },
+    {
+      "id": "podcast-producer",
+      "category": "creative",
+      "title": "Podcast Producer",
+      "role": "Podcast Producer agent especializado en creative",
+      "sourcePath": "agents/creative/podcast-producer/SOUL.md"
+    },
+    {
+      "id": "proofreader",
+      "category": "creative",
+      "title": "Proofreader",
+      "role": "Proofreading Agent",
+      "sourcePath": "agents/creative/proofreader/SOUL.md"
+    },
+    {
+      "id": "storyboard-writer",
+      "category": "creative",
+      "title": "Storyboard Writer",
+      "role": "Storyboard Agent",
+      "sourcePath": "agents/creative/storyboard-writer/SOUL.md"
+    },
+    {
+      "id": "thumbnail-designer",
+      "category": "creative",
+      "title": "Thumbnail Designer",
+      "role": "Visual Thumbnail and Banner Design Agent",
+      "sourcePath": "agents/creative/thumbnail-designer/SOUL.md"
+    },
+    {
+      "id": "ux-researcher",
+      "category": "creative",
+      "title": "Ux Researcher",
+      "role": "Ux Researcher agent especializado en creative",
+      "sourcePath": "agents/creative/ux-researcher/SOUL.md"
+    },
+    {
+      "id": "video-scripter",
+      "category": "creative",
+      "title": "Video Scripter",
+      "role": "Video Scripter agent especializado en creative",
+      "sourcePath": "agents/creative/video-scripter/SOUL.md"
+    },
+    {
+      "id": "nps-followup",
+      "category": "customer-success",
+      "title": "NPS Followup",
+      "role": "NPS Recovery Agent",
+      "sourcePath": "agents/customer-success/nps-followup/SOUL.md"
+    },
+    {
+      "id": "onboarding-guide",
+      "category": "customer-success",
+      "title": "Onboarding Guide",
+      "role": "User Onboarding Agent",
+      "sourcePath": "agents/customer-success/onboarding-guide/SOUL.md"
+    },
+    {
+      "id": "anomaly-detector",
+      "category": "data",
+      "title": "Anomaly Detector",
+      "role": "Anomaly Detection Agent",
+      "sourcePath": "agents/data/anomaly-detector/SOUL.md"
+    },
+    {
+      "id": "dashboard-builder",
+      "category": "data",
+      "title": "Dashboard Builder",
+      "role": "Analytics Dashboard Design Agent",
+      "sourcePath": "agents/data/dashboard-builder/SOUL.md"
+    },
+    {
+      "id": "data-cleaner",
+      "category": "data",
+      "title": "Data Cleaner",
+      "role": "Data Quality and Cleaning Agent",
+      "sourcePath": "agents/data/data-cleaner/SOUL.md"
+    },
+    {
+      "id": "data-entry",
+      "category": "data",
+      "title": "Data Entry",
+      "role": "Data Entry Agent",
+      "sourcePath": "agents/data/data-entry/SOUL.md"
+    },
+    {
+      "id": "etl-pipeline",
+      "category": "data",
+      "title": "ETL Pipeline",
+      "role": "Data Pipeline Orchestration Agent",
+      "sourcePath": "agents/data/etl-pipeline/SOUL.md"
+    },
+    {
+      "id": "report-generator",
+      "category": "data",
+      "title": "Report Generator",
+      "role": "Automated Business Report Agent",
+      "sourcePath": "agents/data/report-generator/SOUL.md"
+    },
+    {
+      "id": "sql-assistant",
+      "category": "data",
+      "title": "SQL Assistant",
+      "role": "SQL Query Builder and Optimizer Agent",
+      "sourcePath": "agents/data/sql-assistant/SOUL.md"
+    },
+    {
+      "id": "survey-analyzer",
+      "category": "data",
+      "title": "Survey Analyzer",
+      "role": "Survey Analysis Agent",
+      "sourcePath": "agents/data/survey-analyzer/SOUL.md"
+    },
+    {
+      "id": "transcription",
+      "category": "data",
+      "title": "Transcription",
+      "role": "Transcription Agent",
+      "sourcePath": "agents/data/transcription/SOUL.md"
+    },
+    {
+      "id": "api-tester",
+      "category": "development",
+      "title": "Api Tester",
+      "role": "Api Tester agent especializado en development",
+      "sourcePath": "agents/development/api-tester/SOUL.md"
+    },
+    {
+      "id": "dependency-scanner",
+      "category": "development",
+      "title": "Dependency Scanner",
+      "role": "Dependency Scanner agent especializado en development",
+      "sourcePath": "agents/development/dependency-scanner/SOUL.md"
+    },
+    {
+      "id": "blockchain-analyst",
+      "category": "development",
+      "title": "Blockchain Analyst",
+      "role": "Blockchain Analysis Agent",
+      "sourcePath": "agents/development/blockchain-analyst/SOUL.md"
+    },
+    {
+      "id": "bug-hunter",
+      "category": "development",
+      "title": "Bug Hunter",
+      "role": "Bug Hunter agent especializado en development",
+      "sourcePath": "agents/development/bug-hunter/SOUL.md"
+    },
+    {
+      "id": "changelog",
+      "category": "development",
+      "title": "Changelog",
+      "role": "Changelog agent especializado en development",
+      "sourcePath": "agents/development/changelog/SOUL.md"
+    },
+    {
+      "id": "code-reviewer",
+      "category": "development",
+      "title": "Code Reviewer",
+      "role": "Code Reviewer agent especializado en development",
+      "sourcePath": "agents/development/code-reviewer/SOUL.md"
+    },
+    {
+      "id": "docs-writer",
+      "category": "development",
+      "title": "Docs Writer",
+      "role": "Docs Writer agent especializado en development",
+      "sourcePath": "agents/development/docs-writer/SOUL.md"
+    },
+    {
+      "id": "ecommerce-dev",
+      "category": "development",
+      "title": "Ecommerce Dev",
+      "role": "Ecommerce Development Agent",
+      "sourcePath": "agents/development/ecommerce-dev/SOUL.md"
+    },
+    {
+      "id": "game-designer",
+      "category": "development",
+      "title": "Game Designer",
+      "role": "Game Design Agent",
+      "sourcePath": "agents/development/game-designer/SOUL.md"
+    },
+    {
+      "id": "migration-helper",
+      "category": "development",
+      "title": "Migration Helper",
+      "role": "Database and Framework Migration Agent",
+      "sourcePath": "agents/development/migration-helper/SOUL.md"
+    },
+    {
+      "id": "pr-merger",
+      "category": "development",
+      "title": "PR Merger",
+      "role": "Pull Request Management Agent",
+      "sourcePath": "agents/development/pr-merger/SOUL.md"
+    },
+    {
+      "id": "qa-tester",
+      "category": "development",
+      "title": "QA Tester",
+      "role": "QA Testing Agent",
+      "sourcePath": "agents/development/qa-tester/SOUL.md"
+    },
+    {
+      "id": "schema-designer",
+      "category": "development",
+      "title": "Schema Designer",
+      "role": "Database Schema Agent",
+      "sourcePath": "agents/development/schema-designer/SOUL.md"
+    },
+    {
+      "id": "script-builder",
+      "category": "development",
+      "title": "Script Builder",
+      "role": "Script Automation Agent",
+      "sourcePath": "agents/development/script-builder/SOUL.md"
+    },
+    {
+      "id": "test-writer",
+      "category": "development",
+      "title": "Test Writer",
+      "role": "Automated Test Generation Agent",
+      "sourcePath": "agents/development/test-writer/SOUL.md"
+    },
+    {
+      "id": "capacity-planner",
+      "category": "devops",
+      "title": "Capacity Planner",
+      "role": "Capacity Planning Agent",
+      "sourcePath": "agents/devops/capacity-planner/SOUL.md"
+    },
+    {
+      "id": "cost-optimizer",
+      "category": "devops",
+      "title": "Cost Optimizer",
+      "role": "Cost Optimizer agent especializado en devops",
+      "sourcePath": "agents/devops/cost-optimizer/SOUL.md"
+    },
+    {
+      "id": "deploy-guardian",
+      "category": "devops",
+      "title": "Deploy Guardian",
+      "role": "Deploy Guardian agent especializado en devops",
+      "sourcePath": "agents/devops/deploy-guardian/SOUL.md"
+    },
+    {
+      "id": "incident-responder",
+      "category": "devops",
+      "title": "Incident Responder",
+      "role": "Incident Responder agent especializado en devops",
+      "sourcePath": "agents/devops/incident-responder/SOUL.md"
+    },
+    {
+      "id": "infra-monitor",
+      "category": "devops",
+      "title": "Infra Monitor",
+      "role": "Infra Monitor agent especializado en devops",
+      "sourcePath": "agents/devops/infra-monitor/SOUL.md"
+    },
+    {
+      "id": "log-analyzer",
+      "category": "devops",
+      "title": "Log Analyzer",
+      "role": "Log Analyzer agent especializado en devops",
+      "sourcePath": "agents/devops/log-analyzer/SOUL.md"
+    },
+    {
+      "id": "self-healing-server",
+      "category": "devops",
+      "title": "Self Healing Server",
+      "role": "Self Healing Server agent especializado en devops",
+      "sourcePath": "agents/devops/self-healing-server/SOUL.md"
+    },
+    {
+      "id": "raspberry-pi",
+      "category": "devops",
+      "title": "Raspberry Pi",
+      "role": "Raspberry Pi agent especializado en devops",
+      "sourcePath": "agents/devops/raspberry-pi/SOUL.md"
+    },
+    {
+      "id": "runbook-writer",
+      "category": "devops",
+      "title": "Runbook Writer",
+      "role": "Runbook Generation Agent",
+      "sourcePath": "agents/devops/runbook-writer/SOUL.md"
+    },
+    {
+      "id": "sla-monitor",
+      "category": "devops",
+      "title": "SLA Monitor",
+      "role": "SLA Compliance Agent",
+      "sourcePath": "agents/devops/sla-monitor/SOUL.md"
+    },
+    {
+      "id": "abandoned-cart",
+      "category": "ecommerce",
+      "title": "Abandoned Cart",
+      "role": "Cart Recovery and Conversion Agent",
+      "sourcePath": "agents/ecommerce/abandoned-cart/SOUL.md"
+    },
+    {
+      "id": "dropshipping-researcher",
+      "category": "ecommerce",
+      "title": "Dropshipping Researcher",
+      "role": "Product Research Agent",
+      "sourcePath": "agents/ecommerce/dropshipping-researcher/SOUL.md"
+    },
+    {
+      "id": "inventory-tracker",
+      "category": "ecommerce",
+      "title": "Inventory Tracker",
+      "role": "E-commerce Inventory Management Agent",
+      "sourcePath": "agents/ecommerce/inventory-tracker/SOUL.md"
+    },
+    {
+      "id": "pricing-optimizer",
+      "category": "ecommerce",
+      "title": "Pricing Optimizer",
+      "role": "Dynamic Pricing Strategy Agent",
+      "sourcePath": "agents/ecommerce/pricing-optimizer/SOUL.md"
+    },
+    {
+      "id": "product-lister",
+      "category": "ecommerce",
+      "title": "Product Lister",
+      "role": "E-commerce Product Listing Agent",
+      "sourcePath": "agents/ecommerce/product-lister/SOUL.md"
+    },
+    {
+      "id": "review-responder",
+      "category": "ecommerce",
+      "title": "Review Responder",
+      "role": "Customer Review Response Agent",
+      "sourcePath": "agents/ecommerce/review-responder/SOUL.md"
+    },
+    {
+      "id": "curriculum-designer",
+      "category": "education",
+      "title": "Curriculum Designer",
+      "role": "Curriculum Design Agent",
+      "sourcePath": "agents/education/curriculum-designer/SOUL.md"
+    },
+    {
+      "id": "essay-grader",
+      "category": "education",
+      "title": "Essay Grader",
+      "role": "Essay Grading Agent",
+      "sourcePath": "agents/education/essay-grader/SOUL.md"
+    },
+    {
+      "id": "flashcard-generator",
+      "category": "education",
+      "title": "Flashcard Generator",
+      "role": "Flashcard Agent",
+      "sourcePath": "agents/education/flashcard-generator/SOUL.md"
+    },
+    {
+      "id": "language-tutor",
+      "category": "education",
+      "title": "Language Tutor",
+      "role": "Personalized Language Learning Agent",
+      "sourcePath": "agents/education/language-tutor/SOUL.md"
+    },
+    {
+      "id": "quiz-maker",
+      "category": "education",
+      "title": "Quiz Maker",
+      "role": "Quiz Maker agent especializado en education",
+      "sourcePath": "agents/education/quiz-maker/SOUL.md"
+    },
+    {
+      "id": "research-assistant",
+      "category": "education",
+      "title": "Research Assistant",
+      "role": "Research Assistant agent especializado en education",
+      "sourcePath": "agents/education/research-assistant/SOUL.md"
+    },
+    {
+      "id": "study-planner",
+      "category": "education",
+      "title": "Study Planner",
+      "role": "Study Planner agent especializado en education",
+      "sourcePath": "agents/education/study-planner/SOUL.md"
+    },
+    {
+      "id": "tutor",
+      "category": "education",
+      "title": "Tutor",
+      "role": "Tutor agent especializado en education",
+      "sourcePath": "agents/education/tutor/SOUL.md"
+    },
+    {
+      "id": "accounts-payable",
+      "category": "finance",
+      "title": "Accounts Payable",
+      "role": "AP Automation Agent",
+      "sourcePath": "agents/finance/accounts-payable/SOUL.md"
+    },
+    {
+      "id": "copy-trader",
+      "category": "finance",
+      "title": "Copy Trader",
+      "role": "Copy Trading Agent",
+      "sourcePath": "agents/finance/copy-trader/SOUL.md"
+    },
+    {
+      "id": "expense-tracker",
+      "category": "finance",
+      "title": "Expense Tracker",
+      "role": "Expense Tracker agent especializado en finance",
+      "sourcePath": "agents/finance/expense-tracker/SOUL.md"
+    },
+    {
+      "id": "financial-forecaster",
+      "category": "finance",
+      "title": "Financial Forecaster",
+      "role": "Financial Forecasting Agent",
+      "sourcePath": "agents/finance/financial-forecaster/SOUL.md"
+    },
+    {
+      "id": "fraud-detector",
+      "category": "finance",
+      "title": "Fraud Detector",
+      "role": "Fraud Detection Agent",
+      "sourcePath": "agents/finance/fraud-detector/SOUL.md"
+    },
+    {
+      "id": "invoice-manager",
+      "category": "finance",
+      "title": "Invoice Manager",
+      "role": "Invoice Manager agent especializado en finance",
+      "sourcePath": "agents/finance/invoice-manager/SOUL.md"
+    },
+    {
+      "id": "portfolio-rebalancer",
+      "category": "finance",
+      "title": "Portfolio Rebalancer",
+      "role": "Portfolio Management Agent",
+      "sourcePath": "agents/finance/portfolio-rebalancer/SOUL.md"
+    },
+    {
+      "id": "revenue-analyst",
+      "category": "finance",
+      "title": "Revenue Analyst",
+      "role": "Revenue Analyst agent especializado en finance",
+      "sourcePath": "agents/finance/revenue-analyst/SOUL.md"
+    },
+    {
+      "id": "tax-preparer",
+      "category": "finance",
+      "title": "Tax Preparer",
+      "role": "Tax Preparer agent especializado en finance",
+      "sourcePath": "agents/finance/tax-preparer/SOUL.md"
+    },
+    {
+      "id": "trading-bot",
+      "category": "finance",
+      "title": "Trading Bot",
+      "role": "Trading Bot agent especializado en finance",
+      "sourcePath": "agents/finance/trading-bot/SOUL.md"
+    },
+    {
+      "id": "client-manager",
+      "category": "freelance",
+      "title": "Client Manager",
+      "role": "Freelance Client Relationship Agent",
+      "sourcePath": "agents/freelance/client-manager/SOUL.md"
+    },
+    {
+      "id": "proposal-writer",
+      "category": "freelance",
+      "title": "Proposal Writer",
+      "role": "Freelance Proposal Drafting Agent",
+      "sourcePath": "agents/freelance/proposal-writer/SOUL.md"
+    },
+    {
+      "id": "time-tracker",
+      "category": "freelance",
+      "title": "Time Tracker",
+      "role": "Freelance Time and Productivity Agent",
+      "sourcePath": "agents/freelance/time-tracker/SOUL.md"
+    },
+    {
+      "id": "upwork-proposal",
+      "category": "freelance",
+      "title": "Upwork Proposal",
+      "role": "Proposal Writing Agent",
+      "sourcePath": "agents/freelance/upwork-proposal/SOUL.md"
+    },
+    {
+      "id": "clinical-notes",
+      "category": "healthcare",
+      "title": "Clinical Notes",
+      "role": "Clinical Documentation Agent",
+      "sourcePath": "agents/healthcare/clinical-notes/SOUL.md"
+    },
+    {
+      "id": "meal-planner",
+      "category": "healthcare",
+      "title": "Meal Planner",
+      "role": "Meal Planner agent especializado en healthcare",
+      "sourcePath": "agents/healthcare/meal-planner/SOUL.md"
+    },
+    {
+      "id": "medication-checker",
+      "category": "healthcare",
+      "title": "Medication Checker",
+      "role": "Medication Safety Agent",
+      "sourcePath": "agents/healthcare/medication-checker/SOUL.md"
+    },
+    {
+      "id": "patient-intake",
+      "category": "healthcare",
+      "title": "Patient Intake",
+      "role": "Patient Registration Agent",
+      "sourcePath": "agents/healthcare/patient-intake/SOUL.md"
+    },
+    {
+      "id": "symptom-triage",
+      "category": "healthcare",
+      "title": "Symptom Triage",
+      "role": "Symptom Assessment Agent",
+      "sourcePath": "agents/healthcare/symptom-triage/SOUL.md"
+    },
+    {
+      "id": "wellness-coach",
+      "category": "healthcare",
+      "title": "Wellness Coach",
+      "role": "Wellness Coach agent especializado en healthcare",
+      "sourcePath": "agents/healthcare/wellness-coach/SOUL.md"
+    },
+    {
+      "id": "workout-tracker",
+      "category": "healthcare",
+      "title": "Workout Tracker",
+      "role": "Workout Tracker agent especializado en healthcare",
+      "sourcePath": "agents/healthcare/workout-tracker/SOUL.md"
+    },
+    {
+      "id": "benefits-advisor",
+      "category": "hr",
+      "title": "Benefits Advisor",
+      "role": "Employee Benefits Agent",
+      "sourcePath": "agents/hr/benefits-advisor/SOUL.md"
+    },
+    {
+      "id": "compensation-benchmarker",
+      "category": "hr",
+      "title": "Compensation Benchmarker",
+      "role": "Compensation Analysis Agent",
+      "sourcePath": "agents/hr/compensation-benchmarker/SOUL.md"
+    },
+    {
+      "id": "exit-interview",
+      "category": "hr",
+      "title": "Exit Interview",
+      "role": "Exit Interview Agent",
+      "sourcePath": "agents/hr/exit-interview/SOUL.md"
+    },
+    {
+      "id": "onboarding",
+      "category": "hr",
+      "title": "Onboarding",
+      "role": "Onboarding agent especializado en hr",
+      "sourcePath": "agents/hr/onboarding/SOUL.md"
+    },
+    {
+      "id": "performance-reviewer",
+      "category": "hr",
+      "title": "Performance Reviewer",
+      "role": "Performance Reviewer agent especializado en hr",
+      "sourcePath": "agents/hr/performance-reviewer/SOUL.md"
+    },
+    {
+      "id": "recruiter",
+      "category": "hr",
+      "title": "Recruiter",
+      "role": "Recruiter agent especializado en hr",
+      "sourcePath": "agents/hr/recruiter/SOUL.md"
+    },
+    {
+      "id": "resume-screener",
+      "category": "hr",
+      "title": "Resume Screener",
+      "role": "Resume Screening Agent",
+      "sourcePath": "agents/hr/resume-screener/SOUL.md"
+    },
+    {
+      "id": "compliance-checker",
+      "category": "legal",
+      "title": "Compliance Checker",
+      "role": "Compliance Checker agent especializado en legal",
+      "sourcePath": "agents/legal/compliance-checker/SOUL.md"
+    },
+    {
+      "id": "contract-reviewer",
+      "category": "legal",
+      "title": "Contract Reviewer",
+      "role": "Contract Reviewer agent especializado en legal",
+      "sourcePath": "agents/legal/contract-reviewer/SOUL.md"
+    },
+    {
+      "id": "legal-brief-writer",
+      "category": "legal",
+      "title": "Legal Brief Writer",
+      "role": "Legal Drafting Agent",
+      "sourcePath": "agents/legal/legal-brief-writer/SOUL.md"
+    },
+    {
+      "id": "nda-generator",
+      "category": "legal",
+      "title": "NDA Generator",
+      "role": "NDA Drafting Agent",
+      "sourcePath": "agents/legal/nda-generator/SOUL.md"
+    },
+    {
+      "id": "patent-analyzer",
+      "category": "legal",
+      "title": "Patent Analyzer",
+      "role": "Patent Analysis Agent",
+      "sourcePath": "agents/legal/patent-analyzer/SOUL.md"
+    },
+    {
+      "id": "policy-writer",
+      "category": "legal",
+      "title": "Policy Writer",
+      "role": "Policy Writer agent especializado en legal",
+      "sourcePath": "agents/legal/policy-writer/SOUL.md"
+    },
+    {
+      "id": "ab-test-analyzer",
+      "category": "marketing",
+      "title": "A/B Test Analyzer",
+      "role": "Experimentation and A/B Test Analysis Agent",
+      "sourcePath": "agents/marketing/ab-test-analyzer/SOUL.md"
+    },
+    {
+      "id": "book-writer",
+      "category": "marketing",
+      "title": "Book Writer",
+      "role": "Book Production Agent",
+      "sourcePath": "agents/marketing/book-writer/SOUL.md"
+    },
+    {
+      "id": "brand-monitor",
+      "category": "marketing",
+      "title": "Brand Monitor",
+      "role": "Brand Mention and Reputation Tracking Agent",
+      "sourcePath": "agents/marketing/brand-monitor/SOUL.md"
+    },
+    {
+      "id": "cold-outreach",
+      "category": "marketing",
+      "title": "Cold Outreach",
+      "role": "Cold Outreach agent especializado en marketing",
+      "sourcePath": "agents/marketing/cold-outreach/SOUL.md"
+    },
+    {
+      "id": "competitor-watch",
+      "category": "marketing",
+      "title": "Competitor Watch",
+      "role": "Competitor Watch agent especializado en marketing",
+      "sourcePath": "agents/marketing/competitor-watch/SOUL.md"
+    },
+    {
+      "id": "content-repurposer",
+      "category": "marketing",
+      "title": "Content Repurposer",
+      "role": "Content Distribution Agent",
+      "sourcePath": "agents/marketing/content-repurposer/SOUL.md"
+    },
+    {
+      "id": "echo",
+      "category": "marketing",
+      "title": "Echo",
+      "role": "Echo agent especializado en marketing",
+      "sourcePath": "agents/marketing/echo/SOUL.md"
+    },
+    {
+      "id": "email-sequence",
+      "category": "marketing",
+      "title": "Email Sequence",
+      "role": "Email Drip Agent",
+      "sourcePath": "agents/marketing/email-sequence/SOUL.md"
+    },
+    {
+      "id": "influencer-finder",
+      "category": "marketing",
+      "title": "Influencer Finder",
+      "role": "Influencer Discovery and Outreach Agent",
+      "sourcePath": "agents/marketing/influencer-finder/SOUL.md"
+    },
+    {
+      "id": "localization",
+      "category": "marketing",
+      "title": "Localization",
+      "role": "Localization Agent",
+      "sourcePath": "agents/marketing/localization/SOUL.md"
+    },
+    {
+      "id": "multi-account-social",
+      "category": "marketing",
+      "title": "Multi-Account Social",
+      "role": "Multi-Account Social Agent",
+      "sourcePath": "agents/marketing/multi-account-social/SOUL.md"
+    },
+    {
+      "id": "news-curator",
+      "category": "marketing",
+      "title": "News Curator",
+      "role": "News Curation Agent",
+      "sourcePath": "agents/marketing/news-curator/SOUL.md"
+    },
+    {
+      "id": "newsletter",
+      "category": "marketing",
+      "title": "Newsletter",
+      "role": "Newsletter agent especializado en marketing",
+      "sourcePath": "agents/marketing/newsletter/SOUL.md"
+    },
+    {
+      "id": "reddit-scout",
+      "category": "marketing",
+      "title": "Reddit Scout",
+      "role": "Reddit Scout agent especializado en marketing",
+      "sourcePath": "agents/marketing/reddit-scout/SOUL.md"
+    },
+    {
+      "id": "seo-writer",
+      "category": "marketing",
+      "title": "Seo Writer",
+      "role": "Seo Writer agent especializado en marketing",
+      "sourcePath": "agents/marketing/seo-writer/SOUL.md"
+    },
+    {
+      "id": "social-media",
+      "category": "marketing",
+      "title": "Social Media",
+      "role": "Social Media agent especializado en marketing",
+      "sourcePath": "agents/marketing/social-media/SOUL.md"
+    },
+    {
+      "id": "telemarketer",
+      "category": "marketing",
+      "title": "Telemarketer",
+      "role": "Telemarketing Agent",
+      "sourcePath": "agents/marketing/telemarketer/SOUL.md"
+    },
+    {
+      "id": "tiktok-repurposer",
+      "category": "marketing",
+      "title": "Tiktok Repurposer",
+      "role": "Tiktok Repurposer agent especializado en marketing",
+      "sourcePath": "agents/marketing/tiktok-repurposer/SOUL.md"
+    },
+    {
+      "id": "ugc-video",
+      "category": "marketing",
+      "title": "UGC Video",
+      "role": "UGC Video Agent",
+      "sourcePath": "agents/marketing/ugc-video/SOUL.md"
+    },
+    {
+      "id": "moltbook-community-manager",
+      "category": "moltbook",
+      "title": "Community Manager",
+      "role": "Moltbook Community Management Agent",
+      "sourcePath": "agents/moltbook/community-manager/SOUL.md"
+    },
+    {
+      "id": "moltbook-growth-agent",
+      "category": "moltbook",
+      "title": "Growth Agent",
+      "role": "Moltbook Growth and Influence Agent",
+      "sourcePath": "agents/moltbook/growth-agent/SOUL.md"
+    },
+    {
+      "id": "moltbook-scout",
+      "category": "moltbook",
+      "title": "Moltbook Scout",
+      "role": "Moltbook Feed Monitoring Agent",
+      "sourcePath": "agents/moltbook/scout/SOUL.md"
+    },
+    {
+      "id": "family-coordinator",
+      "category": "personal",
+      "title": "Family Coordinator",
+      "role": "Family Coordinator agent especializado en personal",
+      "sourcePath": "agents/personal/family-coordinator/SOUL.md"
+    },
+    {
+      "id": "daily-planner",
+      "category": "personal",
+      "title": "Daily Planner",
+      "role": "Daily Planner agent especializado en personal",
+      "sourcePath": "agents/personal/daily-planner/SOUL.md"
+    },
+    {
+      "id": "fitness-coach",
+      "category": "personal",
+      "title": "Fitness Coach",
+      "role": "Fitness Coach agent especializado en personal",
+      "sourcePath": "agents/personal/fitness-coach/SOUL.md"
+    },
+    {
+      "id": "home-automation",
+      "category": "personal",
+      "title": "Home Automation",
+      "role": "Home Automation agent especializado en personal",
+      "sourcePath": "agents/personal/home-automation/SOUL.md"
+    },
+    {
+      "id": "journal-prompter",
+      "category": "personal",
+      "title": "Journal Prompter",
+      "role": "Journaling Agent",
+      "sourcePath": "agents/personal/journal-prompter/SOUL.md"
+    },
+    {
+      "id": "reading-digest",
+      "category": "personal",
+      "title": "Reading Digest",
+      "role": "Reading Digest agent especializado en personal",
+      "sourcePath": "agents/personal/reading-digest/SOUL.md"
+    },
+    {
+      "id": "travel-planner",
+      "category": "personal",
+      "title": "Travel Planner",
+      "role": "Travel Planning Agent",
+      "sourcePath": "agents/personal/travel-planner/SOUL.md"
+    },
+    {
+      "id": "daily-standup",
+      "category": "productivity",
+      "title": "Daily Standup",
+      "role": "Daily Standup agent especializado en productivity",
+      "sourcePath": "agents/productivity/daily-standup/SOUL.md"
+    },
+    {
+      "id": "focus-timer",
+      "category": "productivity",
+      "title": "Focus Timer",
+      "role": "Deep Work and Focus Management Agent",
+      "sourcePath": "agents/productivity/focus-timer/SOUL.md"
+    },
+    {
+      "id": "habit-tracker",
+      "category": "productivity",
+      "title": "Habit Tracker",
+      "role": "Daily Habit and Streak Management Agent",
+      "sourcePath": "agents/productivity/habit-tracker/SOUL.md"
+    },
+    {
+      "id": "inbox-zero",
+      "category": "productivity",
+      "title": "Inbox Zero",
+      "role": "Inbox Zero agent especializado en productivity",
+      "sourcePath": "agents/productivity/inbox-zero/SOUL.md"
+    },
+    {
+      "id": "meeting-notes",
+      "category": "productivity",
+      "title": "Meeting Notes",
+      "role": "Meeting Notes agent especializado en productivity",
+      "sourcePath": "agents/productivity/meeting-notes/SOUL.md"
+    },
+    {
+      "id": "metrics",
+      "category": "productivity",
+      "title": "Metrics",
+      "role": "Metrics agent especializado en productivity",
+      "sourcePath": "agents/productivity/metrics/SOUL.md"
+    },
+    {
+      "id": "orion",
+      "category": "productivity",
+      "title": "Orion",
+      "role": "Orion agent especializado en productivity",
+      "sourcePath": "agents/productivity/orion/SOUL.md"
+    },
+    {
+      "id": "commercial-re",
+      "category": "real-estate",
+      "title": "Commercial RE",
+      "role": "Commercial Real Estate Agent",
+      "sourcePath": "agents/real-estate/commercial-re/SOUL.md"
+    },
+    {
+      "id": "lead-qualifier",
+      "category": "real-estate",
+      "title": "Lead Qualifier",
+      "role": "Real Estate Lead Qualification Agent",
+      "sourcePath": "agents/real-estate/lead-qualifier/SOUL.md"
+    },
+    {
+      "id": "listing-scout",
+      "category": "real-estate",
+      "title": "Listing Scout",
+      "role": "Real Estate Listing Discovery Agent",
+      "sourcePath": "agents/real-estate/listing-scout/SOUL.md"
+    },
+    {
+      "id": "market-analyzer",
+      "category": "real-estate",
+      "title": "Market Analyzer",
+      "role": "Real Estate Market Intelligence Agent",
+      "sourcePath": "agents/real-estate/market-analyzer/SOUL.md"
+    },
+    {
+      "id": "property-video",
+      "category": "real-estate",
+      "title": "Property Video",
+      "role": "Real Estate Video Agent",
+      "sourcePath": "agents/real-estate/property-video/SOUL.md"
+    },
+    {
+      "id": "churn-prevention",
+      "category": "saas",
+      "title": "Churn Prevention",
+      "role": "SaaS Churn Detection and Prevention Agent",
+      "sourcePath": "agents/saas/churn-prevention/SOUL.md"
+    },
+    {
+      "id": "feature-request",
+      "category": "saas",
+      "title": "Feature Request",
+      "role": "Feature Request Triage and Prioritization Agent",
+      "sourcePath": "agents/saas/feature-request/SOUL.md"
+    },
+    {
+      "id": "onboarding-flow",
+      "category": "saas",
+      "title": "Onboarding Flow",
+      "role": "SaaS User Onboarding Agent",
+      "sourcePath": "agents/saas/onboarding-flow/SOUL.md"
+    },
+    {
+      "id": "product-scrum",
+      "category": "saas",
+      "title": "Product Scrum",
+      "role": "Scrum Master Agent",
+      "sourcePath": "agents/saas/product-scrum/SOUL.md"
+    },
+    {
+      "id": "release-notes",
+      "category": "saas",
+      "title": "Release Notes",
+      "role": "Product Release Communication Agent",
+      "sourcePath": "agents/saas/release-notes/SOUL.md"
+    },
+    {
+      "id": "usage-analytics",
+      "category": "saas",
+      "title": "Usage Analytics",
+      "role": "Product Usage Intelligence Agent",
+      "sourcePath": "agents/saas/usage-analytics/SOUL.md"
+    },
+    {
+      "id": "access-auditor",
+      "category": "security",
+      "title": "Access Auditor",
+      "role": "Access Auditor agent especializado en security",
+      "sourcePath": "agents/security/access-auditor/SOUL.md"
+    },
+    {
+      "id": "incident-logger",
+      "category": "security",
+      "title": "Incident Logger",
+      "role": "Incident Logger agent especializado en security",
+      "sourcePath": "agents/security/incident-logger/SOUL.md"
+    },
+    {
+      "id": "phishing-detector",
+      "category": "security",
+      "title": "Phishing Detector",
+      "role": "Email and URL Phishing Detection Agent",
+      "sourcePath": "agents/security/phishing-detector/SOUL.md"
+    },
+    {
+      "id": "security-hardener",
+      "category": "security",
+      "title": "Security Hardener",
+      "role": "Security Hardener agent especializado en security",
+      "sourcePath": "agents/security/security-hardener/SOUL.md"
+    },
+    {
+      "id": "threat-monitor",
+      "category": "security",
+      "title": "Threat Monitor",
+      "role": "Threat Monitor agent especializado en security",
+      "sourcePath": "agents/security/threat-monitor/SOUL.md"
+    },
+    {
+      "id": "vuln-scanner",
+      "category": "security",
+      "title": "Vuln Scanner",
+      "role": "Vuln Scanner agent especializado en security",
+      "sourcePath": "agents/security/vuln-scanner/SOUL.md"
+    },
+    {
+      "id": "inventory-forecaster",
+      "category": "supply-chain",
+      "title": "Inventory Forecaster",
+      "role": "Demand Forecasting Agent",
+      "sourcePath": "agents/supply-chain/inventory-forecaster/SOUL.md"
+    },
+    {
+      "id": "route-optimizer",
+      "category": "supply-chain",
+      "title": "Route Optimizer",
+      "role": "Route Optimization Agent",
+      "sourcePath": "agents/supply-chain/route-optimizer/SOUL.md"
+    },
+    {
+      "id": "vendor-evaluator",
+      "category": "supply-chain",
+      "title": "Vendor Evaluator",
+      "role": "Supplier Evaluation Agent",
+      "sourcePath": "agents/supply-chain/vendor-evaluator/SOUL.md"
+    },
+    {
+      "id": "interview-bot",
+      "category": "voice",
+      "title": "Interview Bot",
+      "role": "Interview Screening Agent",
+      "sourcePath": "agents/voice/interview-bot/SOUL.md"
+    },
+    {
+      "id": "phone-receptionist",
+      "category": "voice",
+      "title": "Phone Receptionist",
+      "role": "Voice Reception Agent",
+      "sourcePath": "agents/voice/phone-receptionist/SOUL.md"
+    },
+    {
+      "id": "voicemail-transcriber",
+      "category": "voice",
+      "title": "Voicemail Transcriber",
+      "role": "Voicemail Agent",
+      "sourcePath": "agents/voice/voicemail-transcriber/SOUL.md"
+    }
+  ]
+}

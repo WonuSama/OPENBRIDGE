@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw VPS Dashboard</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>OpenClaw VPS Dashboard</h1>
+    <div class="controls">
+      <button id="refreshAll">Refrescar</button>
+      <span id="healthBadge" class="badge">Conectando...</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="cards">
+      <article class="card"><h3>Archivos</h3><p id="totalFiles">-</p></article>
+      <article class="card"><h3>Directorios</h3><p id="totalDirs">-</p></article>
+      <article class="card"><h3>Tamano total</h3><p id="totalSize">-</p></article>
+    </section>
+
+    <section class="grid">
+      <article class="panel">
+        <h2>Mas grandes</h2>
+        <ul id="largestList"></ul>
+      </article>
+      <article class="panel">
+        <h2>Recientes</h2>
+        <ul id="recentList"></ul>
+      </article>
+    </section>
+
+    <section class="grid explorer-grid">
+      <article class="panel explorer">
+        <h2>Workspace Explorer</h2>
+        <div class="path-row">
+          <select id="scopeSelect">
+            <option value="workspace">workspace</option>
+            <option value="state">estado openclaw-nuevo</option>
+          </select>
+          <button id="goUp">Subir</button>
+          <code id="currentPath">/</code>
+        </div>
+        <table>
+          <thead>
+            <tr><th>Tipo</th><th>Nombre</th><th>Tamano</th><th>Modificado</th></tr>
+          </thead>
+          <tbody id="treeBody"></tbody>
+        </table>
+      </article>
+
+      <article class="panel file-panel">
+        <h2>Archivo</h2>
+        <div class="file-meta" id="fileMeta">Selecciona un archivo...</div>
+        <textarea id="fileContent" spellcheck="false"></textarea>
+        <div class="actions">
+          <button id="saveFile" disabled>Guardar en VPS</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
