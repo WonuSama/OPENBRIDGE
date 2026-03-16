@@ -7,8 +7,8 @@ export function SettingsModal({ open, onClose, setupData, refreshSetup, onComple
 
   return (
     <div className="fixed inset-0 z-[160] bg-[rgba(242,244,247,0.82)] backdrop-blur-[8px]">
-      <div className="flex min-h-full items-center justify-center px-4 py-6">
-        <div className="w-full max-w-6xl">
+      <div className="flex min-h-full items-center justify-center px-4 py-4 lg:px-6 lg:py-6">
+        <div className="w-full max-w-[min(1120px,100vw-2rem)]">
           <SettingsFlow
             setupData={setupData}
             refreshSetup={refreshSetup}

@@ -58,6 +58,29 @@ function ChoiceButton({ selected, icon: Icon, title, detail, onClick }) {
   );
 }
 
+function ProviderChoiceButton({ selected, icon: Icon, title, detail, onClick }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn(
+        "rounded-[16px] border px-4 py-3 text-left transition-all",
+        selected ? "border-neutral-900 bg-neutral-950 text-white shadow-[0_12px_30px_rgba(15,23,42,0.14)]" : "border-neutral-200 bg-white hover:border-neutral-300 hover:shadow-sm",
+      )}
+    >
+      <div className="flex items-center gap-3">
+        <div className={cn("flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border", selected ? "border-white/15 bg-white/10" : "border-neutral-200 bg-neutral-50")}>
+          <Icon sx={{ fontSize: 17 }} />
+        </div>
+        <div className="min-w-0">
+          <div className={cn("truncate text-sm font-semibold tracking-tight", selected ? "text-white" : "text-neutral-950")}>{title}</div>
+          <div className={cn("mt-0.5 line-clamp-1 text-xs", selected ? "text-white/70" : "text-neutral-500")}>{detail}</div>
+        </div>
+      </div>
+    </button>
+  );
+}
+
 function SidePreview({ title, detail, detection }) {
   return (
     <div className="relative hidden overflow-hidden rounded-[28px] border border-neutral-200 bg-[radial-gradient(circle_at_18%_22%,rgba(242,195,107,0.18),transparent_25%),radial-gradient(circle_at_82%_30%,rgba(147,197,253,0.18),transparent_28%),linear-gradient(180deg,#f7f7f4_0%,#f1f4f5_100%)] p-6 lg:flex lg:min-h-[640px] lg:flex-col">
@@ -221,10 +244,10 @@ export function SettingsFlow({ setupData, refreshSetup, onCompleted, onCancel, f
   const installationConfirmToken = config?.openclaw?.stateRoot ? `${config.openclaw.profile || "nuevo"}:${config.openclaw.stateRoot}` : "";
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[380px_minmax(0,1fr)]">
+    <div className="grid max-h-[calc(100vh-3rem)] gap-6 lg:grid-cols-[340px_minmax(0,1fr)]">
       <SidePreview title={title} detail={detail} detection={detection} />
 
-      <div className="overflow-hidden rounded-[32px] border border-neutral-200 bg-white shadow-[0_24px_80px_rgba(15,23,42,0.08)]">
+      <div className="flex min-h-0 flex-col overflow-hidden rounded-[32px] border border-neutral-200 bg-white shadow-[0_24px_80px_rgba(15,23,42,0.08)]">
         <div className="border-b border-neutral-200 px-6 py-5">
           <div className="flex items-center justify-between gap-4">
             <div className="min-w-0 flex-1 space-y-3">
@@ -244,7 +267,7 @@ export function SettingsFlow({ setupData, refreshSetup, onCompleted, onCancel, f
           </div>
         </div>
 
-        <div className="max-h-[720px] overflow-y-auto px-6 py-6">
+        <div className="min-h-0 flex-1 overflow-y-auto px-6 py-6">
           {error ? <div className="mb-4 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">{error}</div> : null}
           {success ? <div className="mb-4 rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700">{success}</div> : null}
 
@@ -301,9 +324,9 @@ export function SettingsFlow({ setupData, refreshSetup, onCompleted, onCancel, f
 
           {step === "provider" ? (
             <div className="space-y-6">
-              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
                 {PROVIDERS.map((provider) => (
-                  <ChoiceButton key={provider.id} selected={draft.provider === provider.id} onClick={() => setDraft((current) => ({ ...current, provider: provider.id, modelId: provider.model, baseUrl: provider.id === "ollama" ? current.baseUrl || provider.baseUrl || "" : current.baseUrl }))} icon={provider.id === "ollama" ? StorageRounded : KeyRounded} title={provider.label} detail={provider.hint} />
+                  <ProviderChoiceButton key={provider.id} selected={draft.provider === provider.id} onClick={() => setDraft((current) => ({ ...current, provider: provider.id, modelId: provider.model, baseUrl: provider.id === "ollama" ? current.baseUrl || provider.baseUrl || "" : current.baseUrl }))} icon={provider.id === "ollama" ? StorageRounded : KeyRounded} title={provider.label} detail={provider.hint} />
                 ))}
               </div>
               <div className="grid gap-4 md:grid-cols-2">
@@ -312,10 +335,14 @@ export function SettingsFlow({ setupData, refreshSetup, onCompleted, onCancel, f
                 <div><label className="mb-2 block text-xs font-medium uppercase tracking-[0.12em] text-neutral-400">State root</label><Input value={draft.stateRoot} onChange={(event) => setDraft((current) => ({ ...current, stateRoot: event.target.value }))} /></div>
                 <div><label className="mb-2 block text-xs font-medium uppercase tracking-[0.12em] text-neutral-400">Workspace root</label><Input value={draft.workspaceRoot} onChange={(event) => setDraft((current) => ({ ...current, workspaceRoot: event.target.value }))} /></div>
               </div>
-              <div className="rounded-[24px] border border-neutral-200 bg-neutral-50 p-5">
-                <div className="text-sm font-semibold text-neutral-900">Proveedor elegido: {activeProvider.label}</div>
-                <div className="mt-1 text-sm text-neutral-500">{activeProvider.hint}</div>
-                <div className="mt-4 space-y-4">
+              <div className="rounded-[20px] border border-neutral-200 bg-neutral-50 p-4">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div>
+                    <div className="text-sm font-semibold text-neutral-900">Proveedor elegido: {activeProvider.label}</div>
+                    <div className="mt-0.5 text-xs text-neutral-500">{activeProvider.hint}</div>
+                  </div>
+                </div>
+                <div className="mt-3 space-y-3">
                   {activeProvider.picker ? (
                     <div>
                       <label className="mb-2 block text-xs font-medium uppercase tracking-[0.12em] text-neutral-400">Modelo inicial</label>
